@@ -1627,6 +1627,7 @@ PRODUCT_COPY_FILES += \
  vendor/xiaomi/spes/proprietary/vendor/lib64/libnotifyaudiohal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnotifyaudiohal.so \
  vendor/xiaomi/spes/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
  vendor/xiaomi/spes/proprietary/vendor/lib64/hw/sensors.elliptic@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.elliptic@2.0.so \
+ vendor/xiaomi/spes/proprietary/vendor/bin/set_permissive.sh:$(TARGET_COPY_OUT_VENDOR)/bin/set_permissive.sh
 
 PRODUCT_PACKAGES += \
     libfastcvopt \
