@@ -1635,9 +1635,19 @@ PRODUCT_COPY_FILES += \
  vendor/xiaomi/spes/proprietary/vendor/lib/libadreno_app_profiles.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_app_profiles.so \
  vendor/xiaomi/spes/proprietary/vendor/lib64/libadreno_app_profiles.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_app_profiles.so \
  vendor/xiaomi/spes/proprietary/vendor/lib/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qgl.so \
- vendor/xiaomi/spes/proprietary/vendor/lib64/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qgl.so
- 
- 
+ vendor/xiaomi/spes/proprietary/vendor/lib64/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qgl.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib64/libOmxAacEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAacEnc.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib64/libOmxAmrEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrEnc.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib64/libOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxCore.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib64/libOmxDsdDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxDsdDec.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib64/libOmxEvrcEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxEvrcEnc.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib64/libOmxG711Enc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxG711Enc.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib64/libOmxMpeghDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxMpeghDecSw.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib64/libOmxQcelp13Enc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxQcelp13Enc.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib64/libOmxVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVdec.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib64/libOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVenc.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib64/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVideoDSMode.so
+
 PRODUCT_PACKAGES += \
     libfastcvopt \
     libthermalclient \
