@@ -1626,8 +1626,12 @@ PRODUCT_COPY_FILES += \
  vendor/xiaomi/spes/proprietary/vendor/lib64/hw/sensors.elliptic@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.elliptic@2.0.so \
  vendor/xiaomi/spes/proprietary/vendor/bin/set_permissive.sh:$(TARGET_COPY_OUT_VENDOR)/bin/set_permissive.sh \
  vendor/xiaomi/spes/proprietary/vendor/bin/fix_contexts.sh:$(TARGET_COPY_OUT_VENDOR)/bin/fix_contexts.sh \
- vendor/xiaomi/spes/proprietary/vendor/lib64/camera/components/com.qti.node.mialgocontrol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.mialgocontrol.so
-
+ vendor/xiaomi/spes/proprietary/vendor/lib64/camera/components/com.qti.node.mialgocontrol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.mialgocontrol.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib/libav_ozodecoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libav_ozodecoder.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib/libav_ozoencoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libav_ozoencoder.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib/soundfx/libozoprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libozoprocessing.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib64/libav_ozodecoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libav_ozodecoder.so
+ 
 PRODUCT_PACKAGES += \
     libfastcvopt \
     libthermalclient \
